@@ -6,7 +6,7 @@ namespace COMP003B.FinalProject.Models
     {
         public int PublisherId { get; set; }
 
-        public int SellerId { get; set; }
+        public int DistributorID { get; set; }
 
         [Required]
         public string PublisherName { get; set; }
@@ -14,5 +14,5 @@ namespace COMP003B.FinalProject.Models
 
         public virtual ICollection<Distributor>? Distributors { get; set; }
     }
-    }
+    
 }

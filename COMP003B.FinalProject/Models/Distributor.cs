@@ -4,7 +4,7 @@ namespace COMP003B.FinalProject.Models
 {
     public class Distributor
     {
-        public int SellerId { get; set; }
+        public int DistributorID { get; set; }
         [Required]
         public string DistributorName { get; set; }
 
